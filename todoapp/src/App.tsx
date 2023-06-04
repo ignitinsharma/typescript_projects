@@ -1,7 +1,12 @@
 import "./App.css";
+import Todo from "./Components/Todo";
 
 function App() {
-  return <>Hello first Ts Project</>;
+  return (
+    <>
+      <Todo />
+    </>
+  );
 }
 
 export default App;
